@@ -36,7 +36,7 @@ function checkFormControls(input) {
     if (!input.checkValidity() || input.id === 'confirm-password') {
         // Blank field or one of the name fields
         if ((input.value == '' || input.id === 'first-name' || input.id === 'last-name') && input.id !== 'confirm-password') {
-            warningElement.textContent = '*This is a required field!';
+            warningElement.textContent = 'This is a required field!';
 
         // Password field (not blank)
         } else if (input.id.includes('password')) {

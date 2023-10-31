@@ -81,7 +81,7 @@ p {
 .shadowed-white-box {
     background-color: #fff;
     padding: 1rem 3rem;
-    box-shadow: 2px 2px 3px 1px rgba(0, 0, 0, 0.4);
+    box-shadow: 2px 4px 3px rgba(0, 0, 0, 0.2);
 }
 
 .shadowed-white-box h3 {
@@ -181,10 +181,9 @@ a {
 }
 
 p.error {
-    /* position: relative; */
     font-size: 0.8rem;
     margin-bottom: 1.2rem;
-    padding: 4px 0 0 2ch;
+    padding: 4px 0 0 0.5ch;
     text-align: left;
     color: rgba(255, 0, 0, 0.8);
     max-width: 32ch;
