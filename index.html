@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+        <title>Sign-up</title>
+    </head>
+    <body>
+        <div class="container-main">
+            <div class="logo-sidebar">
+                <div class="logo-text">
+                    <div class="logo-title">LOGO</div>
+                    <p class="logo-caption">Lorem ipsum dolor sit amet</p>
+                </div>
+            </div>
+            <div class="main-form">
+                <div>
+                    <p>
+                        This is not a real online service! You know you need something like this in your life to help you realize your deapest
+                        dreams. Sign up <em>now</em> to get started!
+                    </p>
+                    <p>
+                        You <em>know</em> you want to!
+                    </p>
+                </div>
+
+                <form action="#" method="get">
+                    <div class="shadowed-white-box">
+                        <h2>Let's do this!</h2>
+                        <div class="form-row">
+                            <div class="form-control">
+                                <label for="first-name">First Name</label>
+                                <input type="text" id="first-name" name="first-name" placeholder="Thor" required>
+                                <p class="warning-message"></p>
+                            </div>
+                            <div class="form-control">
+                                <label for="last-name">Last Name</label>
+                                <input type="text" id="last-name" name="last-name" placeholder="Odinson" required>
+                                <p class="warning-message"></p>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-control">
+                                <label for="user-email">Email</label>
+                                <input type="email" id="user-email" name="user-email" placeholder="odin@example.com" required>
+                                <p class="warning-message"></p>
+                            </div>
+                            <div class="form-control">
+                                <label for="phone-number">Phone Number</label>
+                                <input type="tel" id="phone-number" name="phone-number">
+                                <p class="warning-message"></p>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-control">
+                                <label for="password">Password</label>
+                                <input type="password" id="password" name="password" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" required>
+                                <p class="warning-message"></p>
+                            </div>
+                            <div class="form-control">
+                                <label for="confirm-password">password</label>
+                                <input type="password" id="confirm-password" name="confirm-password" required>
+                                <p class="warning-message"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <button type="submit">Create Account</button>
+                        <p>
+                            Already have an account? <a href="#">Log in</a>
+                        </p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
