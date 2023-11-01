@@ -30,6 +30,7 @@ body {
 }
 
 .logo-sidebar {
+    position: relative;
     width: 35%;
     min-height: 100vh;
     background: url(./images/train.jpg);
@@ -43,6 +44,8 @@ body {
 }
 
 .logo-text {
+    position: relative;
+    top: -15%;
     text-align: center;
     line-height: normal;
     color: #eee;
@@ -64,6 +67,20 @@ body {
     padding: 0;
     margin: 0;
     opacity: 95%;
+}
+
+.logo-sidebar p.footer {
+    position: absolute;
+    align-self: flex-end;
+    font-size: 0.9rem;
+}
+
+.logo-sidebar p.footer, .logo-sidebar p.footer a {
+    color: #fff;
+}
+
+.logo-sidebar p.footer a {
+    text-decoration: underline;
 }
 
 .main-form {
@@ -178,7 +195,7 @@ button:hover {
 }
 
 div.bottom > p {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
 
 a {
